@@ -94,6 +94,7 @@ main{
     padding-top: 100px;
 }
 section{
+    padding: 30px 0;
     /* debug */
     min-height: 150px;
 }
@@ -101,6 +102,43 @@ section{
 section:nth-child(even){
     background-color: rgb(152, 150, 226);
 }
+
+/* === first section */
+.card{
+    border-radius: 40px;
+    /* debug */
+    min-height: 100px;
+    background-color: rgb(182, 230, 247);
+  
+}
+
+
+/* === first section _ MQ================ */
+
+@media all and (min-width:480px){
+ .first .container .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    
+ }
+
+ .col{
+    width: calc(100% / 3);
+    padding: 5px;
+ }
+
+ .card{
+    height: 100%;
+ }
+
+ #demo{
+ width: calc(200% / 3);
+ }
+
+}
+
+
 
 /*=== footer =============================================================*/
 
