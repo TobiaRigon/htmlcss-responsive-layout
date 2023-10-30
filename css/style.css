@@ -201,9 +201,11 @@ padding-bottom:0;
     
  }
 
- .col{
+ .first .col{
     width: calc(100% / 3);
     padding: 5px;
+    display: flex;
+    flex-direction: column;
    
  }
 
