@@ -113,13 +113,17 @@ p{
 /* === first section */
 
 
+.first .card{
+    background-color: rgb(182, 230, 247);
+}
+
 .card{
     border-radius: 40px;
     margin-top: 10px;  
     padding:20px; 
  /* debug */
     min-height: 100px;
-    background-color: rgb(182, 230, 247);
+   
 }
 
 .first .card{
@@ -232,6 +236,40 @@ padding-bottom:0;
 
 }
 
+
+/* ==== Planning Section */
+
+.illustration{
+    width: 100%;
+}
+
+.planning h2 , .planning p{
+    color: white;
+    margin:15px 0;
+    font-weight: bold;
+}
+
+.planning .card{
+    background-color: white;
+}
+
+.planning .card p{
+    color: black;
+    font-style: italic;
+}
+
+
+.down_button{
+    background-color: rgb(152, 150, 226);
+    padding: 15px;
+    margin:5px auto;
+    height: 50px;
+    width: 50px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    display:block;
+}
 
 
 /*=== footer =============================================================*/
