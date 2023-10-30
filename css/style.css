@@ -15,6 +15,10 @@ font-family: 'PT Sans', sans-serif;
 }
 
 
+a{
+    text-decoration: none;
+}
+
 /* ===header============================================================ */
 
 
@@ -40,7 +44,6 @@ nav{
 }
 
 header a{
-    text-decoration: none;
     color: white;
 }
 
@@ -104,18 +107,85 @@ section:nth-child(even){
 }
 
 /* === first section */
+
+
 .card{
     border-radius: 40px;
-    /* debug */
+    margin-top: 10px;  
+    padding:20px; 
+ /* debug */
     min-height: 100px;
     background-color: rgb(182, 230, 247);
+}
+
+.first .card{
+    font-weight: bold;
+}
+
+.first p{
+    margin:20px auto;
+    color: rgb(94, 94, 94);
+}
+
+.first h3{
+    margin-top: 20px;
+    color:rgb(0, 157, 255) ;
+    font-size: 26px;
+}
+
+/* demo */
+
+#demo .card{
+padding-bottom:0;
+
+}
+
+.demo_info{
+    margin:auto;
   
+}
+
+.demo_info .button{
+    border-radius: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px auto;
+    max-width: 200px;
+    min-width:100px;
+    background-color: rgb(0, 157, 255);
+   padding: 10px;
+}
+
+.button a{
+    color: white;
+}
+
+.demo_img{
+    position: relative;
+    bottom: 0;
+}
+
+.demo_img img{
+    width: 100%;
+    max-width:390px ;
+    display: block;
+}
+
+.demo_ico{
+    margin: 30px auto;
+   font-size: 90px;
+}
+
+.ico{
+    text-align: center ;
 }
 
 
 /* === first section _ MQ================ */
 
-@media all and (min-width:480px){
+/* tablet */
+
+@media all and (min-width:580px){
  .first .container .row{
     display: flex;
     flex-wrap: wrap;
@@ -126,6 +196,7 @@ section:nth-child(even){
  .col{
     width: calc(100% / 3);
     padding: 5px;
+   
  }
 
  .card{
@@ -134,6 +205,24 @@ section:nth-child(even){
 
  #demo{
  width: calc(200% / 3);
+ }
+
+ .demo_info .button{
+    margin:15px 0;
+ }
+
+}
+
+/* desktop */
+
+@media all and (min-width:1200px){
+ #demo .card{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .demo_info{
+    width: 50%;
  }
 
 }
