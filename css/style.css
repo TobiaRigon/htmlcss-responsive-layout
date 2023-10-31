@@ -9,6 +9,7 @@
 font-family: 'PT Sans', sans-serif;
 }
 
+
 .container{
     width: 90%;
     margin:auto;
@@ -98,7 +99,7 @@ main{
 }
 section{
     padding: 30px 0;
-    margin: 20px 0;
+    padding: 20px 0;
     /* debug */
     min-height: 150px;
 }
@@ -535,25 +536,33 @@ padding-bottom:0;
 
 #started p a{
     color: white;
+    text-decoration: underline;
 }
-
-
 
 
 .fa-circle{
     font-size: 5px;
 }
 
-    /* === started section_MQ=================================== */
-
-
 /*=== footer =============================================================*/
 
 footer{
+    padding-top: 15px;
     color: white;
-    background-color: darkgray;
+    background-color: rgb(51, 51, 51);
+    text-align: center;
 
     /* debug */
     min-height: 150px;
 
+}
+
+
+footer p{
+    padding:15px 0;
+}
+
+footer p a{
+    color: rgb(152, 150, 226);
+    text-decoration: underline;
 }
