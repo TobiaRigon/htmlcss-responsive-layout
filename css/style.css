@@ -486,6 +486,65 @@ padding-bottom:0;
             
             margin: 10px;
     }
+}
+
+
+    /* === started section */
+
+#started{
+    color: white;
+    text-align: center;
+}
+
+#started h5{
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+#started h3{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+
+#started h4{
+    font-size: 58px;
+    color: rgb(255, 191, 72);
+    margin-bottom: 10px;
+}
+
+
+#started .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(152, 150, 226);
+    padding: 15px;
+    margin: 20px auto;
+    height: 40px;
+    max-width: 200px;
+    border-radius: 20px;    
+    font-weight: bold;
+}
+
+#started .button a{
+    color: rgb(152, 150, 226);
+}
+
+
+#started p a{
+    color: white;
+}
+
+
+
+
+.fa-circle{
+    font-size: 5px;
+}
+
+    /* === started section_MQ=================================== */
 
 
 /*=== footer =============================================================*/
