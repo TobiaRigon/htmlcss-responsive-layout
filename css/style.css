@@ -98,6 +98,7 @@ main{
 }
 section{
     padding: 30px 0;
+    margin: 20px 0;
     /* debug */
     min-height: 150px;
 }
@@ -247,12 +248,19 @@ padding-bottom:0;
 
 .planning h2 , .planning p{
     color: white;
-    margin:15px 0;
+    margin:30px 0;
     font-weight: bold;
+}
+
+.planning h2{
+    font-size: 28px;
+    margin-top: 70px;
 }
 
 .planning .card{
     background-color: white;
+    text-align: center;
+  
 }
 
 .planning .card p{
@@ -263,16 +271,151 @@ padding-bottom:0;
 
 .down_button{
     background-color: rgb(152, 150, 226);
-    padding: 15px;
-    margin:5px auto;
-    height: 50px;
-    width: 50px;
-    line-height: 25px;
+    border-radius: 30px;
+    font-weight: bold;
     text-align: center;
-    border-radius: 50%;
-    display:block;
+    margin: 15px auto;
+    max-width: 200px;
+    min-width:100px;
+    padding: 10px;
+    margin: 10px 0;
+    clip-path: circle();
 }
 
+/* === first section _ MQ================ */
+
+/* desktop */
+
+@media all and (min-width:1200px){
+    .planning .row{
+        display: flex;
+        align-items: flex-end;
+        gap: 30px;
+    }
+
+    .planning .card .illustration{
+        width: 60%;
+    }
+
+   
+}
+
+
+/* === TESTIMONIAL SECTION  */
+
+#testimonials{
+    text-align: center;
+}
+
+#testimonials h3{
+    font-size: 28px;
+    color:  rgb(152, 150, 226);
+    margin: 20px 0;
+}
+
+#testimonials .card{
+    background-color: rgb(152, 150, 226);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#testimonials .card p{
+    margin:30px 0;
+}
+
+
+#testimonials img{
+    width: 100%;
+    clip-path: circle();
+    margin-top: 20px;
+}
+
+
+/* === Testimonial Section_MQ======================== */
+
+/* tablet */
+
+@media all and (min-width:580px){
+    #testimonials .row{
+        display: flex;
+        align-items: center;
+    }
+
+    #testimonials .card{
+        text-align:left;   
+    }
+    }
+
+    /* ==== Benefit Section */
+
+    h3{
+        color: white;
+        margin: 30px 0;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #benefits .card{
+        background-color: white;
+       
+    }
+
+    #benefits .button{
+        background-color: rgb(152, 150, 226);
+       
+    }
+
+
+    #benefits .button{
+        background-color: rgb(152, 150, 226);
+        padding: 15px;
+        margin:20px auto;
+        height: 40px;
+        width: 100px;
+        line-height: 10px;
+        text-align: center;
+        border-radius: 20px;
+        display:block;
+        font-weight: bold;
+    }
+
+    .number{
+        font-size: 50px;
+        color: rgb(152, 150, 226);
+    }
+
+    #benefits h4{
+        font-size: 28px;
+        margin: 20px 0;
+        color: rgb(152, 150, 226);
+    }
+
+    /* ==== Benefit Section_MQ ====================== */
+
+    /* tablet */
+
+    @media all and (min-width:580px){
+        #benefits .row{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        #benefits .col{
+           width:calc(50% - 20px) ;
+           margin: 10px;
+        }
+    }
+
+    /* desktop */
+
+    @media all and (min-width:1200px){
+     
+        #benefits .col{
+            width: 30% ;
+        }
+    }    
 
 /*=== footer =============================================================*/
 
