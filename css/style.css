@@ -349,7 +349,7 @@ padding-bottom:0;
 
     /* ==== Benefit Section */
 
-    h3{
+    #benefits h3{
         color: white;
         margin: 30px 0;
         font-size: 28px;
@@ -391,7 +391,21 @@ padding-bottom:0;
         color: rgb(152, 150, 226);
     }
 
+    .avatar{
+        position: relative;
+    }
+
+    #quote{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        font-size: 100px;
+    }
+    
+
     /* ==== Benefit Section_MQ ====================== */
+
+   
 
     /* tablet */
 
@@ -406,6 +420,7 @@ padding-bottom:0;
            width:calc(50% - 20px) ;
            margin: 10px;
         }
+        
     }
 
     /* desktop */
@@ -416,6 +431,62 @@ padding-bottom:0;
             width: 30% ;
         }
     }    
+
+    /* ==== about section */
+
+    
+
+     #about h3{
+        font-size: 28px;
+        margin: 20px 0;
+        color: rgb(152, 150, 226);
+        margin: 30px 0;
+        font-size: 28px;
+     }
+
+     #about p{
+        margin: 20px 0;
+     }
+
+     #about img{
+    width: 70%;
+    clip-path: circle();
+    margin-top: 20px;
+     }
+
+.avatar .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(152, 150, 226);
+    padding: 15px;
+    margin: 20px 0;
+    height: 40px;
+    max-width: 200px;
+    border-radius: 20px;    
+    font-weight: bold;
+
+}
+
+.fa-linkedin{
+    margin-right: 10px;
+}
+
+    /* ==== about section_MQ================================== */
+
+    @media all and (min-width:580px){
+
+
+        #about .row{
+            display: flex;
+            gap: 30px;
+        }
+
+        #about .col{
+            
+            margin: 10px;
+    }
+
 
 /*=== footer =============================================================*/
 
